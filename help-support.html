@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help & Support - WeirdText</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .header h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header p {
+            color: #666;
+            font-size: 1.1em;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            color: #667eea;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #667eea;
+        }
+
+        .section h3 {
+            color: #555;
+            font-size: 1.2em;
+            margin: 20px 0 10px 0;
+        }
+
+        .section p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .section ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .section li {
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .highlight h3 {
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+            margin: 20px 0;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #f0f0f0;
+            color: #666;
+        }
+
+        .last-updated {
+            background: #e8f4fd;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            text-align: center;
+            border-left: 4px solid #667eea;
+        }
+
+        .feature-box {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+
+        .feature-box h4 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .step-list {
+            counter-reset: step-counter;
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .step-list li {
+            counter-increment: step-counter;
+            margin-bottom: 15px;
+            padding-left: 40px;
+            position: relative;
+        }
+
+        .step-list li::before {
+            content: counter(step-counter);
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: #667eea;
+            color: white;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+                padding: 15px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>❓ <span style="font-family: 'Courier New', monospace;">Help & Support</span></h1>
+            <p><span style="font-family: 'Courier New', monospace;">WeirdText</span> - <span style="font-family: 'Courier New', monospace;">Text Transformation App</span></p>
+        </div>
+
+        <div class="last-updated">
+            <strong>Last updated:</strong> September 1, 2025
+        </div>
+
+        <div class="section">
+            <h2>1. Getting Started</h2>
+            <p>Welcome to <span style="font-family: 'Courier New', monospace;">WeirdText</span>! This guide will help you get the most out of our text transformation app.</p>
+            
+            <h3>What is WeirdText?</h3>
+            <p><span style="font-family: 'Courier New', monospace;">WeirdText</span> is an iOS application that transforms your text into various creative formats. From simple text effects to complex transformations, you can make your messages stand out with unique visual styles.</p>
+        </div>
+
+        <div class="section">
+            <h2>2. How to Use WeirdText</h2>
+            
+            <h3>Basic Usage</h3>
+            <ol class="step-list">
+                <li>Open the <span style="font-family: 'Courier New', monospace;">WeirdText</span> app on your iOS device</li>
+                <li>Type or paste your text in the input field</li>
+                <li>Tap the "Random Effect" button to apply a random effect for free</li>
+                <li>Or select a specific effect from the available options (requires purchase)</li>
+                <li>Copy the result to use in other apps</li>
+            </ol>
+
+            <h3>Available Effects</h3>
+            <div class="feature-box">
+                <h4>🎲 Random Effect (Free)</h4>
+                <ul>
+                    <li><strong>Random Effect Button:</strong> Tap this button to apply a random effect from our collection for free</li>
+                    <li><strong>No Purchase Required:</strong> This feature is always available without any cost</li>
+                    <li><strong>Surprise Factor:</strong> Each tap gives you a different random effect</li>
+                </ul>
+            </div>
+
+            <div class="feature-box">
+                <h4>💎 Premium Effects (In-App Purchase)</h4>
+                <ul>
+                    <li><strong>Uppercase:</strong> Converts text to ALL CAPS</li>
+                    <li><strong>Lowercase:</strong> Converts text to lowercase</li>
+                    <li><strong>Reverse:</strong> Reverses the text order</li>
+                    <li><strong>Mirror:</strong> Creates a mirrored effect</li>
+                    <li><strong>Greek:</strong> Converts to Greek letter style</li>
+                    <li><strong>Leet:</strong> Converts to 1337 speak</li>
+                    <li><strong>Strange:</strong> Adds random character variations</li>
+                    <li><strong>Weird:</strong> Creates unique text patterns</li>
+                    <li><strong>And many more...</strong> Unlock all effects with the "All Unlocked" package</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="highlight">
+            <h3>💡 Pro Tips</h3>
+            <ul>
+                <li>Use the Random Effect button to discover new effects without purchasing</li>
+                <li>Try different effects on the same text to see which looks best</li>
+                <li>Use short phrases for the best visual impact</li>
+                <li>Some effects work better with certain types of text</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>3. In-App Purchases</h2>
+            <p><span style="font-family: 'Courier New', monospace;">WeirdText</span> offers all effects as premium content that can be unlocked through in-app purchases:</p>
+            
+            <h3>Available Packages</h3>
+            <ul>
+                <li><strong>Individual Effects:</strong> Purchase specific effects for $0.99 each</li>
+                <li><strong>All Unlocked:</strong> Get access to all current and future effects for $4.99</li>
+                <li><strong>Random Effect:</strong> Always free - tap the random button to try any effect</li>
+            </ul>
+
+            <h3>Restoring Purchases</h3>
+            <p>If you've previously purchased effects but they're not showing as unlocked:</p>
+            <ol class="step-list">
+                <li>Go to the "Other" tab in the app</li>
+                <li>Tap on "Restore Purchases"</li>
+                <li>Wait for the restoration process to complete</li>
+                <li>Your purchased effects should now be available</li>
+                <li>Note: The Random Effect button remains free even if you haven't purchased any effects</li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <h2>4. Privacy & Security</h2>
+            <p><span style="font-family: 'Courier New', monospace;">WeirdText</span> is designed with your privacy in mind:</p>
+            
+            <ul>
+                <li><strong>Local Processing:</strong> All text transformations happen on your device</li>
+                <li><strong>No Data Collection:</strong> We don't collect or store your text</li>
+                <li><strong>Secure Payments:</strong> All purchases are handled by Apple's secure system</li>
+                <li><strong>No Tracking:</strong> We don't track your usage or personal information</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>6. System Requirements</h2>
+            <ul>
+                <li><strong>iOS Version:</strong> iOS 26 or later</li>
+                <li><strong>Device Compatibility:</strong> iPhone, iPad, and iPod touch</li>
+                <li><strong>Storage:</strong> At least 20MB of free space</li>
+                <li><strong>Internet:</strong> Required for in-app purchases</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>7. Updates & New Features</h2>
+            <p>We regularly update <span style="font-family: 'Courier New', monospace;">WeirdText</span> with new effects and improvements:</p>
+            
+            <ul>
+                <li>New text effects are added regularly</li>
+                <li>Performance improvements and bug fixes</li>
+                <li>Enhanced user interface and experience</li>
+                <li>Compatibility updates for new iOS versions</li>
+            </ul>
+            
+            <p>Make sure to keep your app updated to get the latest features!</p>
+        </div>
+
+        <div class="contact-info">
+            <h3>📧 Need More Help?</h3>
+            <p>If you can't find the answer you're looking for, we're here to help:</p>
+            <ul>
+                <li><strong>Email Support:</strong> <span style="unicode-bidi: bidi-override; direction: rtl;">moc.drongan@tcatnoc</span></li>
+                <li><strong>App:</strong> <span style="font-family: 'Courier New', monospace;">WeirdText</span></li>
+                <li><strong>Response Time:</strong> Usually within 24-48 hours</li>
+            </ul>
+            <p><strong>Before contacting us:</strong> Please include your device model, iOS version, and a detailed description of the issue you're experiencing.</p>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 <span style="font-family: 'Courier New', monospace;">Nagord</span>. All rights reserved.</p>
+            <p><span style="font-family: 'Courier New', monospace;">WeirdText</span> - Transform your text creatively</p>
+        </div>
+    </div>
+</body>
+</html>
